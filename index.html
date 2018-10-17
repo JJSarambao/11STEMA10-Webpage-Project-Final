@@ -1,0 +1,193 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> 私達わ友達です！- We're FriendS! </title>
+</head>
+<body onload="startTime()">
+	<header>
+		<nav>
+			<h1><a href="index.html">私達わ友達です！</a></h1>
+                <div class="container">
+                    <a class="active" href="Index.html">Home</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Profiles Here!</button>
+                        <div class="dropdown-content">
+                            <a href="#Lee">Lee</a>
+                            <a href="#Jes">Jes</a>
+                            <a href="#Ysabella">Ysabella</a>
+                        </div>
+                    </div> 
+                    <a href="codetest.html">The Codetest Page</a>
+                    <div class="time">
+                        <script>
+                            function startTime() {
+                                var today = new Date();
+                                var h = today.getHours();
+                                var m = today.getMinutes();
+                                var s = today.getSeconds();
+                                m = checkTime(m);
+                                s = checkTime(s);
+                                document.getElementById('txt').innerHTML= 
+                                    h + ":" + m + ":" + s
+                                var t = setTimeout(startTime, 500);
+                            }
+                            function checkTime(i) {
+                                if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                                return i;
+                            }
+                        </script>
+                    </div>
+                    <div id="txt"></div>
+            </div>
+        </nav>
+    </header>
+    <img id="Background" src="bg.png" width="100%" height="100%">
+    </body>
+    <body>
+	<p id="last">Click Here for us to greet you!</p>
+        <form>
+	<div class="greet">
+        <input type="button" value="Greetings" align="center" onclick="greet()">
+        </div>
+        </form>
+        <img id="pc1" src="Lee.png" width="136px" height="116px">
+            <div id="Lee"><p>Greetings! I am Lee from the tropical Archipelago of the Philippines. I am 15 Years of Age and I am fond of reading and listening to vast genres of music, from classical up to Modern Day EDM</p></div>
+        <br>
+        <img id="pc2" src="Jes.png" width="116px" height="116px">
+            <div id="Jes"><p>Hi! I am Jesriel John from Philippines. I am an average Gamer, Otaku, Student, and Many more! I always play some Musical Rhythm Games like <a href="https://www.osu.ppy.sh">Osu!</a>, Cytus, LLSIF, and Many More! Check out my Osu! Profile <a href="https://osu.ppy.sh/u/11264013">Here</a></p></div>
+        <br>
+        <img id="pc3" src="Hmmm.png" width="116px" height="116px">s
+            <div id="Ysabella"><p>Hi!! I'm Ysabella, an avid anime fan, and also a manga reader from the Philippines. To know me better, Pleaseee look at the table Below!</p></div>
+        
+    <p class='start'>GET TO KNOW US MORE!</p>
+    <table cellpadding="5px" cellspacing="0px" width="75%" align="center" frame="lhs">
+        <tr>
+            <td bgcolor="#333">Information</td>
+            <td bgcolor="#333">Lee</td>
+            <td bgcolor="#333">Jes</td>
+            <td bgcolor="#333">Ysabella</td>
+        </tr>
+        <tr>
+            <td bgcolor="#585555">Name</td>
+            <td bgcolor="#585555">Lira Joyce Salvador</td>
+            <td bgcolor="#585555">Jesriel John Sarambao</td>
+            <td bgcolor="#585555">Ysabella Mari Pagoso</td>
+        </tr>
+        <tr>
+            <td bgcolor="#333">Age</td>
+            <td bgcolor="#333">15</td>
+            <td bgcolor="#333">16</td>
+            <td bgcolor="#333">16</td>
+        </tr>
+        <tr>
+            <td bgcolor="#585555">Birthday</td>
+            <td bgcolor="#585555">November 2, 2002</td>
+            <td bgcolor="#585555">April 29, 2002</td>
+            <td bgcolor="#585555">November 29, 2001</td>
+        </tr>
+        <tr>
+            <td bgcolor="#333">Gender</td>
+            <td bgcolor="#333">Female</td>
+            <td bgcolor="#333">Male</td>
+            <td bgcolor="#333">Female</td>
+        </tr>
+        <tr>
+            <td bgcolor="#585555">School</td>
+            <td bgcolor="#585555">Technological Institute of the Philippines, Quezon City Campus</td>
+            <td bgcolor="#585555">Technological Institute of the Philippines, Quezon City Campus</td>
+            <td bgcolor="#585555">Technological Institute of the Philippines, Quezon City Campus</td>
+        </tr>
+        <tr>
+            <td bgcolor="#333">Motto</td>
+            <td bgcolor="#333">"If you expect something in return when you do someone a favor, you don't do it out of kindess"</td>
+            <td bgcolor="#333">"A person who thinks He's an Idiot is even harder to deal with than an Idiot who thinks He isn't" 
+               - Sora, No Game No Life</td>
+            <td bgcolor="#333">"If you only face forward, there's something you will miss seeing"</td>
+        </tr>
+        <tr>
+            <td bgcolor="#585555">E-mail Address</td>
+            <td bgcolor="#585555"><a href="leesalvador02@gmail.com">leesalvador02@gmail.com</a></td>
+            <td bgcolor="#585555"><a href="msarambao@gmail.com">msarambao@gmail.com</a></td>
+            <td bgcolor="#585555"><a href="ysamari1129@gmail.com">ysamari1129@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td bgcolor="#333">3 Most Important Things in Life</td>
+            <td bgcolor="#333"><ol>
+                                    <li>Love</li>
+                                    <li>Equality</li>
+                                    <li>Solidarity</li>
+                                </ol></td>
+            <td bgcolor="#333"><ol>
+                <li>Love</li>
+                <li>Happiness</li> 
+                <li>Gaming</li>
+                </ol></td>
+            <td bgcolor="#333"><ol>
+                <li>Money</li>
+                <li>Food</li>
+                <li>Love</li></ol></td>
+        </tr>
+        <tr>
+            <td bgcolor="#585555">Something You carry anywhere</td>
+            <td bgcolor="#585555">Phone!</td>
+            <td bgcolor="#585555">Phone!!</td>
+            <td bgcolor="#585555">Phone!!!</td>
+        </tr>
+        <tr>
+            <td bgcolor="#333">Somthing You can't live without</td>
+            <td bgcolor="#333">Food</td>
+            <td bgcolor="#333">Food</td>
+            <td bgcolor="#333">Food</td>
+        </tr>
+        <tr>
+            <td bgcolor="#585555">Biggest Pet Peeve</td>
+            <td bgcolor="#585555">Ill-mannered People</td>
+            <td bgcolor="#585555">Simple Problems that Can't be solved Even with the Easiest Solution</td>
+            <td bgcolor="#585555">Show-off People</td>
+        </tr>
+        <tr>
+            <td bgcolor="#333">An Embarassing Moment</td>
+            <td bgcolor="#333">Jolting out of bed so early in the morning then going to class, only to find out that it's a saturday morning</td>
+            <td bgcolor="#333">I slipped in a wooden stair, and my butt hit all the steps from top to bottom. That really Hurts</td>
+            <td bgcolor="#333">It's Confidential</td>
+        </tr>
+    </table>
+    <br>
+    <p id="credits" align="center">11STEMA10 &copy; 2018. All Rights Reserved</p>
+    <script type="text/javascript">
+        function greet() {
+                    var today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var s = today.getSeconds();
+                    if (h <= 1 && h < 1 )
+                        {alert("Good Midnight Visitor. Won't You Sleep?");
+                         alert("グッドミッドナイト");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Please Sleep, Sir. - Kizuna A.I. and GLaDOS");}
+                    else if (h < 6)
+                        {alert("It's early morning bruh");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Please Go Back and Continue Sleeping Sir.");
+                         alert("If you have classes, Go to school now Sir.");}
+                    else if (h < 12)
+                        {alert("Good Morning Visitor");
+                         alert("おはよございます。Visitor");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Have a Good Day Sir! - GLaDOS, Kizuna A.I.");}
+                    else if (h < 18)
+                        {alert("Good Afternoon Visitor"); 
+                         alert("こんいちわです、Visitor");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("GLaDOS is Sleeping. Go back when It's 19:00 User-san. - Kizuna A.I.");}
+                    else if (h < 23)
+                        {alert("Good Evening Visitor");
+                         alert("こんばんわ、Creator-kun");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Do Your Assignments Sir. Sleep Early Okay? - Kizuna A.I.");}
+                }
+        </script>
+    </body>
+</html>

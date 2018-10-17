@@ -1,0 +1,233 @@
+<!Doctype html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+    h1 {
+        font-family: 'Exo2I';
+        color: white;
+    }
+    button {
+        color: white;
+        background-color: #f6a;
+        font-family: 'Exo2i';
+    }
+    ul {
+        color: white;
+    }
+    </style>
+<title>Code Test Page</title>
+<body>
+<h1 align="center"> Code Test Page</h1>
+<button><a href="index.html">&larr;Portal to Home Page (Just to go Back Though)</a></button>
+    <div id="Codetest">
+    <p>So... In This page... Lol I'll just use this page for Code tests.</p>
+    <p> I'm Currently Learning 『JavaScript (JS) Programming』. But my Knowledge isn't worthy enough for this. So there might be some errors in the code. ;) </p>
+    <p> Current Code to Test:</p>
+         <ul>var a = 2</ul>
+         <ul>var b = 3</ul>
+         <ul>function multiply (2,3) {</ul>
+         <ul>return 2 * 3; </ul>
+    <ul>}</ul>
+    <p> Output</p>
+   <script type="text/javascript">
+    var a = 2;
+    var b = 6;
+    function answer(){
+        var x=confirm("Show Answer?");
+        if (x==true)
+            {
+                alert(a*b);
+            }
+        else
+            {
+                alert("You Stupid");
+            }
+        }
+    </script>
+    <form>
+    <input type="button" name="ans" value="Answer" onclick="answer()">
+    </form>
+    <p> Proven and Tested: Working Code ッ</p>
+    <p> Second One</p>
+   <p>Code:</p>
+    <p>var count = 0;</p>
+    <p>document.write("Starting Loop");</p>
+    <p>while (count &lt; 10){</p>
+    <ul>document.write("Current Count: " + count + " &lt;br /&gt;");</ul>
+    <ul>count++;</ul>
+    <p>}</p>
+    <p>document.write("Loop stopped");</p>
+    <br>
+    <p>Well, that's only a sample code. the output might be different because I'm editing it.</p>
+    <p>Output:</p>
+    <script type="text/javascript">
+        function loop() {
+        var v=confirm("Start Loop?");
+        if (v==true)
+            {
+                var count=0;
+                document.write("Loop Started" + "<br/>");
+                while (count<2002) {
+                    document.write("Current Count: " + count + "<br/>");
+                    count+=2;
+                }
+                document.write("Loop Finished. Please Reload page to go back.");
+            }
+        else
+            {
+                window.close();
+            }
+        }
+    </script>
+    <form>
+    <input type="button" value="While Loop" onclick="loop()">
+    </form>
+    <p>Buttons For other JS Codes. (I can't put all the raw codes here. But, maybe I can put them later.)</p>
+    <script type="text/javascript">
+    function loop2() {
+        var q=confirm("Start?");
+        if (q==true)
+            {
+                var count;
+                document.write("Starting Loop" + "<br />");
+                for(count=0; count<100; count+=2){
+                    document.write("Current Count: " + count);
+                    document.write("<br />");
+                }
+                document.write("JavaScript Command Run Finished. Please reload page to go back.")
+            }
+    }
+    </script>
+    <form>
+    <input type="button" value="for... loop command" onclick="loop2()">
+    </form>
+    <script type="text/javascript">
+        <!--
+        function varprop() {
+        var v=confirm("Show?");
+        if (v==true)
+            {
+            var aProperty;
+        document.write("Navigator Object Properties<br /> ");
+        for (aProperty in navigator)
+        {
+            document.write(aProperty);
+            document.write("<br />");
+        }
+        document.write ("Exiting from the loop!");
+            }
+        }
+        //-->
+    </script>
+    <form>
+    <input type="button" value="for-in command" onclick="varprop()">
+    </form>
+    <script type="text/javascript">
+             var a = 2;
+             var b = 6;
+            function codes() {
+            var g=confirm("Run all codes?");
+            if (g==true)
+                {
+                    document.write("Multiply:" + "<br />")
+                    document.write("2 * 6" + "=" + a*b + "<br />")
+                    var count=0;
+                    document.write("while loop command started" + "<br />")
+                    document.write("Loop Started" + "<br/>");
+                    while (count<2002) {
+                                        document.write("Current Count: " + count + "<br/>");
+                                        count+=2;
+                                        }
+                    document.write("Loop Finished. Please Reload page to go back." + "<br />");
+                    var number;
+                    document.write("for loop command start" + "<br />")
+                    document.write("Starting Loop" + "<br />");
+                    for(number=0; number<100; number+=2){
+                                                    document.write("Current Count: " + number);
+                                                    document.write("<br />");
+                                                    }
+                    document.write("JavaScript Command Run Finished. Please reload page to go back." + "<br />")
+               
+                     var aProperty;
+                    document.write("for-in loop command started" + "<br />")
+                    document.write("Navigator Object Properties<br /> ");
+                    for (aProperty in navigator)
+                    {
+                        document.write(aProperty);
+                        document.write("<br />");
+                    }
+                    document.write ("Exiting from the loop!");
+                }
+            else
+                {
+                    window.close();
+                }
+        }
+    </script>
+    <form>
+    <input type="button" value="Show all" onclick="codes()">
+    </form>
+    <script type="text/javascript">
+        function close() {
+            window.close();
+        }
+    </script>
+    <form>
+    <input type="button" value="close" onclick="close()">
+    </form>
+    <script type="text/javascript">
+        function greet() {
+                    var today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var s = today.getSeconds();
+                    if (h <= 1 && h < 1 )
+                        {alert("Good Midnight Creator. Won't You Sleep?");
+                         alert("グッドミッドナイト");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Please Sleep, Sir. - Kizuna A.I. and GLaDOS");}
+                    else if (h < 6)
+                        {alert("It's early morning bruh");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Please Go Back and Continue Sleeping Sir.");
+                         alert("If you have classes, Go to school now Sir.");}
+                    else if (h < 12)
+                        {alert("Good Morning Creator");
+                         alert("おはよございます。Creator-kun");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Have a Good Day Sir! - GLaDOS, Kizuna A.I.");}
+                    else if (h < 18)
+                        {alert("Good Afternoon Creator"); 
+                         alert("こんいちわです、Creator-kun");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("GLaDOS is Sleeping. Go back when It's 19:00 User-san. - Kizuna A.I.");}
+                    else if (h < 23)
+                        {alert("Good Evening Creator");
+                         alert("こんばんわ、Creator-kun");
+                         alert("The time is " + h + ":" + m + ":" + s);
+                         alert("Do Your Assignments Sir. Sleep Early Okay? - Kizuna A.I.");}
+                }
+    </script>
+    <form>
+    <input type="button" value="Greetings" onclick="greet()">
+    </form>
+    <script type="text/javascript">
+        function logarithm() {
+            Math.PI(1)
+            document.write(Math.PI(1))
+        }
+        
+        </script>
+    <form><input type="button" value="Logarithms" onClick="logarithm()"></form>
+    </div>
+    </body>
+</html>
+<!--
+    Fuck. My Cleanest HTML Ever!!! This is Great!! Lol Hahaha.
+I wish she will notice me again...
+
+`   October 20, 2017 21:40:55
+Now I realized, or maybe, I'm going to Realize, that she'll not Come Back. 
+And If my thoughts are correct, I have one thing to say: "Don't do that again"
+
+//-->
